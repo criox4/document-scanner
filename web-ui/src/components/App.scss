@@ -1,0 +1,32 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.main {
+	width: 600px;
+	margin: 0 auto;
+	border: solid;
+	height: 100vh;
+	text-align: center;
+
+	h1 {
+		padding: 115px 0 15px;
+	}
+
+	.code_container {
+		display: flex;
+		justify-content: center;
+
+		.qrcode {
+			padding: 5px;
+			border: solid 4px #0f0f0f;
+            height: 274px;
+		}
+	}
+
+	.description {
+		padding: 5px 0;
+	}
+}

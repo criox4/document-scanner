@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.main {
+  width: 600px;
+  margin: 0 auto;
+  border: solid;
+  height: 100vh;
+  text-align: center;
+}
+
+.main h1 {
+  padding: 115px 0 15px;
+}
+
+.main .code_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main .code_container .qrcode {
+  padding: 5px;
+  border: solid 4px #0f0f0f;
+  height: 274px;
+}
+
+.main .description {
+  padding: 5px 0;
+}
